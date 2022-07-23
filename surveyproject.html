@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Surveyproject </title>
+</head>
+<body style="background:url(https://www.freevector.com/uploads/vector/preview/10839/FreeVector-Floral-Background-Layout.jpg)"></body>
+<body>
+<center><h1>Employee Interests Survey Form</h1>
+<form action="backend.php">
+ <div>
+    Enter your name:<input type="text">
+    </div>
+    <br>
+    <div>
+    Enter your department:<input type="text">
+    </div>
+    <br>
+    <!--Here above we use div tag instead of br tag as simple,but we can
+    do this in CSS also. -->
+    <div>
+    Tell us a little about yourself:<textarea name="my Text" cols="60" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+    Do you excercise at home? Yes <input type="radio" name="my answer"> No <input type="radio" name="my answer" >
+    </div>
+    <br>
+    <div>
+    <p>How do you like to read about  your favourite topics?</p>
+    </div>
+    <br>
+    <div>
+    <input type="checkbox"/> Books
+    <input type="checkbox"/>Online Resources
+    <input type="checkbox"/>Phone apps
+    <input type="checkbox"/>Magazines       
+    </div>
+    <br>
+    <div>
+    <table>
+        <tr>
+            <td>What genre of movies do you like?</td>
+            <td>
+                <label for="movie" id="movies">
+                    <select name="my movie" id="movie">
+                        <option value="com" selected>comedy</option>
+                        <option value="Rom">Romantic</option>
+                        <option value="horr">Horror</option>
+                        <option value="Act">Action</option>
+                    </select>
+                 </label>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <br>
+    <div>
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset form">
+    </div>
+    <br>
+</form>
+</center>
+</body>
+</html>
